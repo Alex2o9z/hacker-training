@@ -12,6 +12,9 @@ import Profile from '../body/profile/Profile'
 import EditUser from '../body/profile/EditUser'
 
 import Home from '../body/home/Home'
+import Example from '../body/content/Example'
+import Content from '../body/content/Content'
+import Upfile from '../body/content/Upfile'
 
 import {useSelector} from 'react-redux'
 
@@ -33,6 +36,12 @@ function Body() {
 
                 <Route path="/profile" element={isLogged ? <Profile /> : <NotFound />} exact />
                 <Route path="/edit_user/:id" element={isAdmin ? <EditUser /> : <NotFound />} exact />
+
+                <Route path="/notfound" element={<NotFound />} exact/>
+
+                <Route path="/example" element={<Example />} exact/>
+                <Route path="/content" element={<Content />} exact/>
+                <Route path="/upfile" element={<Upfile />} exact/>
 
             </Routes>
         </section>

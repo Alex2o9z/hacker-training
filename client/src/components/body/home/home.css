@@ -1,7 +1,8 @@
 .home_page{
     min-height: calc(100vh - 100px);
     padding: 20px;
-    background: rgb(255, 249, 215);
+    /* background: rgb(255, 249, 215); */
+    background: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%);
     color: #333;
 }
 .home_page h2{
@@ -18,7 +19,7 @@
 
 .home_page a{
     color: white;
-    background: crimson;
+    background: #333;
     padding: 15px 40px;
     display: inline-block;
     border-radius: 3px;
