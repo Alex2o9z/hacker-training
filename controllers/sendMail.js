@@ -42,7 +42,7 @@ const sendEmail = (to, url, txt) => {
         subject: "Hacker Training",
         html: `
             <div style="max-width: 700px; margin:auto; border: 10px solid #ddd; padding: 50px 20px; font-size: 110%;">
-            <h2 style="text-align: center; text-transform: uppercase;color: teal;">Welcome to the Hacer Training.</h2>
+            <h2 style="text-align: center; text-transform: uppercase;color: teal;">Welcome to the Hacker Training.</h2>
             <p>Congratulations! You're almost set to start learning at Hacker Training.
                 Just click the button below to validate your email address.
             </p>
