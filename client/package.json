@@ -39,5 +39,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://hacker-training-server.onrender.com"
+  "proxy": "https://hacker-training-server.onrender.com:10000"
 }
